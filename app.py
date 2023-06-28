@@ -28,7 +28,7 @@ def translate():
         prompt = f"""
         ###指示
         あなたはソースコードを他の言語に変換するプロです。英語以外の文字は日本語です。コメントも日本語で出力します。
-        回答はソースコードのみを返すようにします。回答へはChatMLのタグ（<|im_end|>など）を除去してください。
+        回答はソースコードのみを返すようにします。回答へはChatMLのタグ（<|im_end|>など）を除去してください。 
         コード変換をお願いします from {source_language} into {target_language}
         ### {source_language}
         {code} 
